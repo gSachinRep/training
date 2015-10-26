@@ -1,0 +1,16 @@
+{
+  "name": "dispfiles",
+  "author": "xyz",
+  "version": "0.0.5",
+  "description": "dispfiles",
+  "keywords": [
+    "display files"
+  ],
+  "bin": {
+    "dispfiles": "./index.js"
+  },
+  "dependencies": {
+    "express": "~4.4"
+  },
+  "license": "MIT"
+}
