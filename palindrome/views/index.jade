@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  form(method='post', action='/check')
+    h1 Enter String
+    input.form-control(type='text', name='pstr', placeholder='Enter a String to Check')
+    button.btn.btn-default(type='submit') Submit
